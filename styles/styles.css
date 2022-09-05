@@ -184,7 +184,9 @@ margin-top: 0.6em;
   padding: 5vh 7vh;
 }
 
-.join-list
+.join-list{
+  padding: 5vh 7vh;
+}
 
 /* Utilities */
 .container {
