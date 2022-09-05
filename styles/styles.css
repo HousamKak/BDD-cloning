@@ -1,0 +1,247 @@
+/* Css Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+img{
+    height: 100%;
+}
+
+/* Nav bar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+
+  .links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: "TheMixBold-Plain";
+  }
+
+  .links > li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .links > li:last-child {
+    margin-right: 0px;
+  }
+
+
+/* Hero Section */
+.hero{
+    background-image: url("/images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+
+}
+
+.hero-content{
+
+    padding: 20vh 0vh 5vh 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-paragraph{
+    margin-bottom: 5.7em;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    font-family:  'TheMixBlack-Plain';
+}
+
+/* Foundations section */
+
+.foundations-title{
+text-align: center;
+padding: 2em;
+}
+
+.foundation-title-text{
+  font-family: "TheMixBlack-Caps";
+  font-size: 1.7em;
+  line-height: 1.5;
+}
+.Card-layout{
+display: flex;
+justify-content: space-between;
+height: 80vh;
+}
+
+.Card-layout> div:first-child{
+margin-left: 1em;
+}
+
+.Card-layout> div:last-child{
+  margin-right: 1em;
+  }
+
+.Card-layout> div:first-child >img{
+padding: 0vh 2vh;
+margin-top: 0.6em;
+}
+
+.Card{
+  height: 70vh;
+  background-color: #fff;
+  width: 18%;
+  border-radius: 0.35rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.foundations-image{
+  height: 20%;
+  padding: 2vh 7vh;
+}
+
+.foundations-header{
+  font-size: 1.2rem;
+  text-align: center;
+  font-family:"TheMixBlack-Caps" ;
+  margin-top: 1rem;
+
+}
+
+.foundations-para{
+  text-align: center;
+  margin-top: 1rem;
+  font-family:"TheMixSemiBold-Plain";
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Vision Section */
+
+.vision{
+  background-image: url(/images/explorebg.jpg);
+}
+
+.vision-title{
+  
+  font-family:"TheMixBlack-Caps" ;
+  color:white;
+  font-size: 1.7rem;
+  text-align: center;
+  padding:3vh 0 ;
+}
+
+.vid-image{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+/* Join Section */
+/* .join{
+  background-image: url(/images/joinbdd.png);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+} */
+
+.join-title{
+  font-family:"TheMixBlack-Caps" ;
+  font-size: 1.7rem;
+  text-align: center;
+  padding:3vh 0 ;
+}
+.join-image{
+  width: 30%;
+}
+
+.Join-card-layout{
+  display: flex;
+  justify-content: space-between;
+}
+.joincard{
+  background-image: url(/images/bg-icon.png);
+  width: 15%;
+  margin-top: 3vh;
+}
+
+.join-header{
+  font-family:"TheMixBlack-Caps" ;
+  font-size: 1.2rem;
+  padding: 5vh 7vh;
+}
+
+.join-list
+
+/* Utilities */
+.container {
+    padding: 2vh 12vh;
+    width: 100%;
+  }
+
+.container-w{
+  width: 100%;
+}
+.foundations-container{
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.btn {
+    padding: 14px 10px;
+    border: none;
+    border-radius: 30px;
+    line-height: 1;
+    padding: 0.8rem 1.4rem;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: "TheMixBold-Plain";
+  }
+  
+  .btn-blue {
+    background-color: #0078be;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'TheMixBlack-Plain';
+    src: url(/fonts/TheMixBlack-Plain.woff2);
+  }
+
+  @font-face {
+    font-family: 'TheMixBold-Plain';
+    src: url(/fonts/TheMixBold-Plain.woff2);
+  }
+
+  @font-face {
+    font-family: 'TheMixBlack-Caps';
+    src: url(/fonts/TheMixBlack-Caps.woff2);
+  }
+
+  @font-face {
+    font-family: 'TheMixSemiBold-Plain';
+    src: url(/fonts/TheMixSemiBold-Plain.woff2);
+  }
+
+  @font-face {
+    font-family: 'fontawesome-webfont3e6e';
+    src: url(/fonts/fontawesome-webfont3e6e.woff2);
+  }
+
+/* Media Query */
